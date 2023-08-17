@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+section > * {
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+#about-section-main{
+    display: flex; 
+    padding: 5em;
+    @media screen and (max-width: 767px) {
+        flex-direction: column;
+    }
+}
+
+.about-heading {
+    font-size: 25px;
+    font-weight: 700;
+    background-color: black;
+    color: white;
+    padding: 1rem;
+}
+
+.about-image{
+    max-width: 50vw;
+    @media screen and (max-width: 767px) {
+        max-width: unset;
+    }
+}
+
+.about-img{
+    overflow-x: hidden;
+        @media screen and (max-width: 767px) {
+        align-self: center;
+        margin-top: 2em;
+    }
+}
+
+.para-padding > p{
+    line-height: 1.4;
+    padding: 0 1em;
+    margin-top: 1em;
+}
