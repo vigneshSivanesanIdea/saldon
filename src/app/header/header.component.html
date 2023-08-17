@@ -1,0 +1,33 @@
+<header class="header">
+  <div class="logo">
+    <img src="path/to/your/image.png" alt="Logo">
+  </div>
+  <div class="dropdowns">
+    <mat-form-field class="dropdown">
+      <mat-label>Services</mat-label>
+      <mat-select>
+        <mat-option *ngFor="let option of dropdownOptions1" [value]="option">{{ option }}</mat-option>
+      </mat-select>
+    </mat-form-field>
+    <mat-form-field class="dropdown">
+      <mat-label>Homes for Sale</mat-label>
+      <mat-select>
+        <mat-option *ngFor="let option of dropdownOptions2" [value]="option">{{ option }}</mat-option>
+      </mat-select>
+    </mat-form-field>
+    <mat-form-field class="dropdown">
+      <mat-label>Portfolio</mat-label>
+      <mat-select>
+        <mat-option *ngFor="let option of dropdownOptions1" [value]="option">{{ option }}</mat-option>
+      </mat-select>
+    </mat-form-field>
+    <mat-form-field class="dropdown">
+      <mat-label>About</mat-label>
+      <mat-select>
+        <mat-option *ngFor="let option of dropdownOptions1" [value]="option">{{ option }}</mat-option>
+      </mat-select>
+    </mat-form-field>
+    <span>Contact</span>
+    <span>Covid 19</span>
+  </div>
+</header>
