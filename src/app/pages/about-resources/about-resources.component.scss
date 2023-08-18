@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+section > * {
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+#about-section-main{
+    display: flex; 
+    padding: 5em;
+    @media screen and (max-width: 767px) {
+        flex-direction: column;
+    }
+}
+
+.about-heading {
+    font-size: 25px;
+    font-weight: 700;
+    background-color: black;
+    color: white;
+    padding: 1rem;
+}
+
+.resource-flex > div{
+    @media screen and (max-width: 767px) {
+        width: 100% !important;
+    }
+}

@@ -17,7 +17,7 @@ import {MatSelectModule} from '@angular/material/select';
   declarations: [
     AppComponent,
     HeaderComponent,
-    FooterComponent,
+    // FooterComponent,
     MarqueeHeaderComponent,
   ],
   imports: [
