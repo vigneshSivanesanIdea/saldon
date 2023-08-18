@@ -7,11 +7,13 @@ import { AboutResourcesComponent } from './about-resources/about-resources.compo
 import { ContactComponent } from './contact/contact.component';
 import { Covid19Component } from './covid19/covid19.component';
 import { SalePage2Component } from './sale-page2/sale-page2.component';
+import { ServiceComponent } from './service/service.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'contact', component: ContactComponent },
   { path: 'covid19', component: Covid19Component },
+  { path: 'services', component: ServiceComponent },
   { path: 'salepage2', component: SalePage2Component },
   {
     path: 'about',
