@@ -5,25 +5,30 @@ import { AboutComponent } from './about/about.component';
 import { AboutSubpageComponent } from './about-subpage/about-subpage.component';
 import { AboutResourcesComponent } from './about-resources/about-resources.component';
 import { ContactComponent } from './contact/contact.component';
+import { Covid19Component } from './covid19/covid19.component';
+import { SalePage2Component } from './sale-page2/sale-page2.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'contact', component: ContactComponent },
-  { path: 'about',
-  children: [
-    {
-      path: 'president-message',
-      component: AboutComponent,
-    },
-    {
-      path: 'company-profile',
-      component: AboutSubpageComponent,
-    },
-    {
-      path: 'resources',
-      component: AboutResourcesComponent,
-    },
-  ]
+  { path: 'covid19', component: Covid19Component },
+  { path: 'salepage2', component: SalePage2Component },
+  {
+    path: 'about',
+    children: [
+      {
+        path: 'president-message',
+        component: AboutComponent,
+      },
+      {
+        path: 'company-profile',
+        component: AboutSubpageComponent,
+      },
+      {
+        path: 'resources',
+        component: AboutResourcesComponent,
+      },
+    ]
   }
 ];
 
